@@ -1,0 +1,79 @@
+/*GLOBAL STYLES
+--------------------------------------------*/
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background: #D3D3D3;
+    height: 100%;
+    margin: 0;
+}
+
+/*----- link styles -----*/
+a {
+    color: #0000FF;
+}
+a:hover {
+    color: #FF4500;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
+}
+
+/*----- footer ------*/
+footer {
+    background: #708090;
+}
+footer a {
+    color: #8B0000;
+}
+footer a:hover {
+    color: #7FFFD4;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+    display: inline-block;
+    width: 40px;
+}
+.socials img {
+    width: 32px;
+}
+
+/*INDEX
+--------------------------------------------*/
+.home {
+    background: url("../images/bg-home-office-studio.jpg") no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper {
+    background: rgba(211, 211, 211, 0.80);
+}
+
+/*RESUME
+--------------------------------------------*/
+.resume header::before {
+    background: url("../images/bg-home-office-studio.jpg") center / cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+.resume-section {
+    margin-bottom: 50px;
+}
+
+.resume-section h2 {
+    border-bottom: 2px dashed #297921;
+}
